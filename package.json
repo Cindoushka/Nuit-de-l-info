@@ -1,0 +1,19 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "Curriculum-vitae de Cindy version web",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Cindoushka/Curriculum-Vitae-version-web.git"
+  },
+  "author": "cindoushka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cindoushka/Curriculum-Vitae-version-web/issues"
+  },
+  "homepage": "https://github.com/Cindoushka/Curriculum-Vitae-version-web#readme"
+}
