@@ -1,19 +1,19 @@
 {
-  "name": "curriculum-vitae",
+  "name": "La nuit de l'info",
   "version": "1.0.0",
-  "description": "Curriculum-vitae de Cindy version web",
+  "description": "Qriosité - La nuit de l'info 2022",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Cindoushka/Curriculum-Vitae-version-web.git"
+    "url": "git+ssh://git@github.com:Cindoushka/Nuit-de-l-info.git"
   },
   "author": "cindoushka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cindoushka/Curriculum-Vitae-version-web/issues"
+    "url": "https://github.com/Cindoushka/Nuit-de-l-info/issues"
   },
-  "homepage": "https://github.com/Cindoushka/Curriculum-Vitae-version-web#readme"
+  "homepage": "https://github.com/Cindoushka/Nuit-de-l-info/#readme"
 }

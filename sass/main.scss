@@ -1,0 +1,24 @@
+// BASE
+
+@import "base/normalize.css";
+
+// UTILS 
+
+@import "utils/colors";
+@import "utils/fonts";
+
+// COMPONENTS
+
+@import "components/boutons";
+@import "components/logo";
+
+// LAYOUT 
+
+@import "layout/footer";
+@import "layout/formulairecontact";
+@import "layout/header";
+@import "layout/map";
+
+// PAGES 
+
+@import "pages/liensutiles.scss";
