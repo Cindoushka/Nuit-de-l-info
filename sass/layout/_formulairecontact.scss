@@ -1,8 +1,50 @@
 form {
     border: 1px $rosepastel solid;
+    border-radius: 16px;
     padding: 30px;
     margin: 50px;
+    background-color: $rosepastel;
         input {
             margin: 10px;
+            border-radius: 16px;
+            padding: 8px;
+            border: 1px $vertpastel solid;
+        }
+        #conteneurradio {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        textarea {
+            width: 80%;
+            border: 1px $rosepastel solid;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 16px;
+        }
+        #conteneurform {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+        select {
+            border-radius: 16px;
+            padding: 6px;
+            margin-left: 10px;
+            border: 1px $vertpastel solid;
+        }
+        .labelselect {
+            margin-bottom: 16px;
+        }
+        .submit {
+            color: black;
+            background-color: $vertpastel;
+            padding: 11px;
+            border: 0px;
+            margin-left: 40%;
         }
 }
+

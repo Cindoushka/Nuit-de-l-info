@@ -11,9 +11,50 @@ body {
 
 form {
   border: 1px #FFE2F9 solid;
+  border-radius: 16px;
   padding: 30px;
   margin: 50px;
+  background-color: #FFE2F9;
 }
 form input {
   margin: 10px;
+  border-radius: 16px;
+  padding: 8px;
+  border: 1px #D2F9C7 solid;
+}
+form #conteneurradio {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+form textarea {
+  width: 80%;
+  border: 1px #FFE2F9 solid;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 16px;
+}
+form #conteneurform {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+form select {
+  border-radius: 16px;
+  padding: 6px;
+  margin-left: 10px;
+  border: 1px #D2F9C7 solid;
+}
+form .labelselect {
+  margin-bottom: 16px;
+}
+form .submit {
+  color: black;
+  background-color: #D2F9C7;
+  padding: 11px;
+  border: 0px;
+  margin-left: 40%;
 }/*# sourceMappingURL=main.css.map */

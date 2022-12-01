@@ -10,22 +10,72 @@
 <body>
 
     <form>
-        <p>
-            <label for="pseudo">Pseudo *</label> <br>
-            <input type="text" name="pseudo" id="pseudo" placeholder="TonyStark" required>
+        <p id="conteneurform">
+            <label for="pseudo" class="psedoform">Pseudo *</label> <br>
+            <input type="text" name="pseudo" id="pseudo" placeholder="TonyStark" required class="psedoinput">
         </p>    
 
-        <p>Comment avez-vous connu notre site ?</p>
+
+        <div class="labelselect">
+            <label for="pays">Quel est votre sexe?</label>
+            <select name="pays" id="pays">
+                <option value="">--Sélectionner une réponse--</option>
+                <option value="france">Féminin</option>
+                <option value="belgique">Masculin</option>
+                <option value="paysbas">Ne souhaite pas se prononcer</option>
+            </select>
+            </div>
+
+        <div class="labelselect">
+        <label for="pays"> Dans quelle tranche d'âge vous situez-vous?</label>
+        <select name="pays" id="pays">
+            <option value="">--Sélectionner une tranche d'âge--</option>
+            <option value="france">10-11 ans</option>
+            <option value="belgique">11-14 ans</option>
+            <option value="paysbas">14-17 ans</option>
+            <option value="suisse">18-25 ans</option>
+            <option value="italy">26 ans et plus...</option>
+        </select>
+        </div>
+
+        <div class="labelselect">
+            <label for="pays">Quelle est votre orientation sexuelle?</label>
+            <select name="pays" id="pays">
+                <option value="">--Sélectionner une réponse--</option>
+                <option value="france">Hétérosexuel</option>
+                <option value="belgique">Homosexuel</option>
+                <option value="paysbas">Bisexuel</option>
+                <option value="suisse">Pansexuel</option>
+                <option value="italy">Polyamoureux</option>
+                <option value="italy">Assexuel</option>
+                <option value="italy">Autre</option>
+            </select>
+            </div>
+
+
+        <p>Comment avez-vous connu notre site ?*</p>
     
-        <input type="radio" id="boucheaoreille" name="how" value="Talk" required>
-        <label for="boucheaoreille">Bouche à oreille</label><br>
+        <div id="conteneurradio">
+                <input type="radio" id="boucheaoreille" name="how" value="Talk" required class="firstradio">
+                <label for="boucheaoreille">Bouche à oreille</label><br>
 
-        <input type="radio" id="recherche" name="how" value="Search">
-        <label for="recherche">Suite à une recherche</label><br>
+                <input type="radio" id="recherche" name="how" value="Search" class="secondradio">
+                <label for="recherche">Suite à une recherche</label><br>
 
-        <input type="radio" id="month" name="how" value="Month">
-        <label for="month">Dans un mois</label><br>
-<p>
+                <input type="radio" id="school" name="how" value="School" class="thirdradio">
+                <label for="school">Conseillé par l'école</label><br>
+
+                <input type="radio" id="other" name="how" value="Other" class="fourthradio">
+                <label for="other">Autre</label><br>
+            <p>
+        </div>
+
+        <p>Avez-vous des suggestions?</p>
+        <textarea rows="10" placeholder="Dites-nous tout..."></textarea>
+
+        <br>
+
+        <input type="submit" class="submit">
     </form>
     
 </body>
