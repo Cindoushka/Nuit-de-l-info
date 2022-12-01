@@ -1,5 +1,19 @@
 @import "base/normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,400;1,700&family=Italiana&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500&display=swap");
+* {
+  box-sizing: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Raleway";
+}
+
 form {
-  background-color: red;
+  border: 1px #FFE2F9 solid;
+  padding: 30px;
+  margin: 50px;
+}
+form input {
+  margin: 10px;
 }/*# sourceMappingURL=main.css.map */
