@@ -9,7 +9,103 @@
 </head>
 <body>
     
+    <header>
+        <img src="/Images/qriositeTypo.png" alt="Logo" title="Logo" class="logoQ">
+        <nav>
+            <a class="aqqueil" href="index.html">AQQueil</a>
+            <a class="qjeu" href="jeu.html?id=0">QJeu</a>
+            <a class="liensQutiles" href="liensqutiles.html">Lien Qutiles</a>
+            <a class="qontact" href="contact.html"> Qontact</a>
+        </nav>
+    </header>
 
+    <form>
+        <p id="conteneurform">
+            <label for="pseudo" class="psedoform">Pseudo *</label> <br>
+            <input type="text" name="pseudo" id="pseudo" placeholder="TonyStark" required class="psedoinput">
+        </p>    
+
+
+        <div class="labelselect">
+            <label for="pays">Quel est ton sexe?</label>
+            <select name="pays" id="pays">
+                <option value="">--Sélectionner une réponse--</option>
+                <option value="france">Féminin</option>
+                <option value="belgique">Masculin</option>
+                <option value="paysbas">Ne souhaite pas se prononcer</option>
+            </select>
+            </div>
+
+        <div class="labelselect">
+        <label for="pays"> Dans quelle tranche d'âge te situes-tu?</label>
+        <select name="pays" id="pays">
+            <option value="">--Sélectionner une tranche d'âge--</option>
+            <option value="france">10-11 ans</option>
+            <option value="belgique">11-14 ans</option>
+            <option value="paysbas">14-17 ans</option>
+            <option value="suisse">18-25 ans</option>
+            <option value="italy">26 ans et plus...</option>
+        </select>
+        </div>
+
+        <div class="labelselect">
+            <label for="pays">Quelle est ton orientation sexuelle?</label>
+            <select name="pays" id="pays">
+                <option value="">--Sélectionner une réponse--</option>
+                <option value="france">Hétérosexuel</option>
+                <option value="belgique">Homosexuel</option>
+                <option value="paysbas">Bisexuel</option>
+                <option value="suisse">Pansexuel</option>
+                <option value="italy">Polyamoureux</option>
+                <option value="italy">Assexuel</option>
+                <option value="italy">Autre</option>
+            </select>
+            </div>
+
+
+        <p>Comment as-tu connu notre site ?*</p>
+    
+        <div id="conteneurradio">
+                <input type="radio" id="boucheaoreille" name="how" value="Talk" required class="firstradio">
+                <label for="boucheaoreille">Bouche à oreille</label><br>
+
+                <input type="radio" id="recherche" name="how" value="Search" class="secondradio">
+                <label for="recherche">Suite à une recherche</label><br>
+
+                <input type="radio" id="school" name="how" value="School" class="thirdradio">
+                <label for="school">Conseillé par l'école</label><br>
+
+                <input type="radio" id="other" name="how" value="Other" class="fourthradio">
+                <label for="other">Autre</label><br>
+            <p>
+        </div>
+
+        <p>As-tu des suggestions?</p>
+        <textarea rows="10" placeholder="Dites-nous tout..."></textarea>
+
+        <br>
+
+        <input type="submit" class="submit">
+    </form>
+
+    <footer>
+        <div class="allFooter">
+            <div class="aPropos">
+                <h4>À propos</h4>
+                <a href="#">Mentions legales</a>
+                <a href="#">Réglementation des données personnelles</a>
+            </div>
+            <div class="assoc">
+                <h4>Association</h4>
+                <a href="https://www.sida-info-service.org/%22%3ESida Info Service</a>
+            </div>
+            <div class="assistance">
+                <h4>Assistance</h4>
+                <a href="#">Besoin d'aide</a>
+                <a href="#">Nous contacter</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
