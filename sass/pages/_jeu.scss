@@ -1,0 +1,39 @@
+#conteneurjeu {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px $vertpaset solid;
+    margin: 0px;
+    div{
+        flex-basis:40%;
+    }
+    article{
+        flex-basis:60%;
+    }
+}
+
+
+
+#conteneurtextejeu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $rosepastel;
+    padding-bottom: 50px;
+        h1{
+            font-family: 'Raleway';
+            font-size: 20px;
+            font-weight: 200;
+        }
+
+}
+
+
+button {
+    background-color: $vertpastel;
+    border: none;
+    margin: 10px;
+    border-radius: 16px;
+}
+

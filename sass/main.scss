@@ -7,6 +7,7 @@
 
 @import "utils/colors";
 @import "utils/fonts";
+@import "utils/animations";
 
 // COMPONENTS
 
@@ -23,3 +24,5 @@
 // PAGES 
 
 @import "pages/liensutiles.scss";
+@import "pages/accueil";
+@import "pages/jeu";

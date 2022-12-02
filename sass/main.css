@@ -9,6 +9,78 @@ body {
   font-family: "Raleway";
 }
 
+@-webkit-keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.vibrate-1 {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+@-webkit-keyframes rotate-scale-up-ver {
+  0% {
+    transform: scale(1) rotateY(0);
+  }
+  50% {
+    transform: scale(2) rotateY(180deg);
+  }
+  100% {
+    transform: scale(1) rotateY(360deg);
+  }
+}
+@keyframes rotate-scale-up-ver {
+  0% {
+    transform: scale(1) rotateY(0);
+  }
+  50% {
+    transform: scale(2) rotateY(180deg);
+  }
+  100% {
+    transform: scale(1) rotateY(360deg);
+  }
+}
+.rotate-scale-up-ver {
+  -webkit-animation: rotate-scale-up-ver 0.65s linear both;
+  animation: rotate-scale-up-ver 0.65s linear both;
+}
+
 form {
   border: 1px #FFE2F9 solid;
   border-radius: 16px;
@@ -57,4 +129,66 @@ form .submit {
   padding: 14px;
   border: 0px;
   margin-left: 40%;
+}
+
+section h1 {
+  font-family: "Italiana";
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+section a:hover {
+  background-color: #D2F9C7;
+  -webkit-animation: rotate-scale-up-ver 0.65s linear both;
+  animation: rotate-scale-up-ver 0.65s linear both;
+}
+
+.boutonaccesjeu {
+  text-decoration: none;
+  background-color: #FFE2F9;
+  padding: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  border-radius: 24px;
+  margin-left: 40%;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#conteneurjeu {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+#conteneurjeu div {
+  flex-basis: 40%;
+}
+#conteneurjeu article {
+  flex-basis: 60%;
+}
+
+#conteneurtextejeu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFE2F9;
+  padding-bottom: 50px;
+}
+#conteneurtextejeu h1 {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 200;
+}
+
+button {
+  background-color: #D2F9C7;
+  border: none;
+  margin: 10px;
+  border-radius: 16px;
 }/*# sourceMappingURL=main.css.map */

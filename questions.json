@@ -1,0 +1,12 @@
+[
+    {
+        "img":"https://france3-regions.francetvinfo.fr/image/MhEIY3_fb5yH6GsCsu0uNPwTDdw/386x290/regions/2021/11/09/618aa02a7624d_000-8yy6pq-1-5510691.jpg",
+        "question":"Verre offert, que faites-vous?",
+        "reponse":["j'accepte", "je refuse"]
+    },
+    {
+        "img":"https://france3-regions.francetvinfo.fr/image/MhEIY3_fb5yH6GsCsu0uNPwTDdw/386x290/regions/2021/11/09/618aa02a7624d_000-8yy6pq-1-5510691.jpg",
+        "question":"Pas de chance , quel es-ton premier reflexe?",
+        "reponse":["Porte plainte", "depistage", "j'appelle ma.mon meilleur.e ami.e", "je ne sais pas"]
+    }
+]
